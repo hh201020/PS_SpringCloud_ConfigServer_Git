@@ -11,3 +11,10 @@ spring:
           #password:pass
           search-paths:
             - 'station*'
+          repos:
+            perf:
+              pattern:
+                - "*/perf"
+              uri: https://github.com/hh201020/PS_Spring_CloudConfigWATollsPerf.git
+              search-paths:
+                - 'station*'
