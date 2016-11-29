@@ -9,3 +9,5 @@ spring:
           uri: https://github.com/hh201020/PS_Spring_CloudConfigWATolls.git
           #username: uname
           #password:pass
+          search-paths:
+            - 'station*'
